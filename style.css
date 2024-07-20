@@ -27,7 +27,27 @@ a{
     padding: 30px 0;
 }
 .banner{
-    background-image: url(img/banner.png);
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/banner.png?raw=true);
+}
+.main{
+    padding: 60px 0;
+}
+.main-list h3{
+    text-align: center;
+    padding: 15px 0;
+    background: #3F5D45;
+    color: #ffffff;
+}
+.main-list li{
+    text-align: center;
+    
+    border: 1px solid #EAF0ED;
+}
+.main-list li:hover{
+    background: #EAF0ED;
+}
+.main-list a{
+    padding: 15px 66px;
 }
 /*utils*/
 .container{
@@ -48,4 +68,14 @@ margin: 0 auto;
 }
 .pl-19px{
     padding-left: 19px;
+}
+
+.fs-1{
+    font-size: 24px;
+}
+.fs-2{
+    font-size: 20px;
+}
+.gap-5{
+    gap: 20px;
 }
