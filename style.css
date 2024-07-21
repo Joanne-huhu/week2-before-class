@@ -33,6 +33,7 @@ width: 220px;
 }
 .banner{
     background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/banner.png?raw=true);
+    padding: 248px;
 }
 .main{
     padding: 60px 0;
@@ -54,7 +55,7 @@ width: 220px;
     background: #EAF0ED;
 }
 .main-list a{
-    padding: 15px 66px;
+    padding: 15px 0px;
 }
 .main-box{
     width: 640px;
