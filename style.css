@@ -6,6 +6,8 @@
 body{
     line-height: 1.5;
 color: #3F5D45;
+font-family: "SF Pro Text","Microsoft Jhenghei";
+font-weight: bold;
 }
 img{
     height: auto;
@@ -26,21 +28,26 @@ a{
 .header{
     padding: 30px 0;
 }
+.header-logo{
+width: 220px;
+}
 .banner{
     background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/banner.png?raw=true);
 }
 .main{
     padding: 60px 0;
 }
-.main-list h3{
+ .main-list{
+    width: 30%;
+} 
+.main-list h2{
     text-align: center;
     padding: 15px 0;
     background: #3F5D45;
     color: #ffffff;
 }
 .main-list li{
-    text-align: center;
-    
+    text-align: center;    
     border: 1px solid #EAF0ED;
 }
 .main-list li:hover{
@@ -48,6 +55,57 @@ a{
 }
 .main-list a{
     padding: 15px 66px;
+}
+.main-box{
+    width: 640px;
+}
+.main-box li{
+    width: 48%;
+}
+.main-box-img-all{
+    position: relative;
+}
+
+.main-box-img-all-tag{
+    position: absolute;
+    writing-mode: vertical-lr;
+    background: #3F5D45;
+    color: #EAF0ED;
+    top: 0px;
+    left: 20px;
+    padding: 10px;
+}
+.main-box-img-all-favorite{
+    position: absolute;
+    top: 0px;
+    top: 19px;
+    right: 22px;
+}
+.main-box li{
+    margin-bottom: 20px;
+}
+.main-box-title p{
+    border: 1px solid #EAF0ED;
+    text-align: center;
+    padding: 14px 0;
+    width: 90%;
+}
+.main-box-btn{
+    padding: 16px 0;
+    text-align: center;
+    background: #EAF0ED;
+    border: 1px solid #EAF0ED;
+}
+.page li{
+border: 1px solid #EAF0ED;
+text-align: center;
+}
+.page a{
+    padding: 16px 24px;
+}
+.page-number:hover{
+    background: #3F5D45;
+    color: #EAF0ED;
 }
 /*utils*/
 .container{
@@ -57,8 +115,20 @@ margin: 0 auto;
 .d-flex{
     display: flex;
 }
+.flex-direction-column{
+    flex-direction: column;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
 .justify-content-between{
     justify-content: space-between;
+}
+.justify-content-end{
+   justify-content: flex-end;
+}
+.justify-content-center{
+    justify-content: center;
 }
 .align-items-center{
     align-items: center;
@@ -66,8 +136,14 @@ margin: 0 auto;
 .gap-15{
     gap: 60px;
 }
+.gap-5{
+    gap: 20px;
+}
 .pl-19px{
     padding-left: 19px;
+}
+.ml-5{
+    margin-left: 20px;
 }
 
 .fs-1{
@@ -76,6 +152,6 @@ margin: 0 auto;
 .fs-2{
     font-size: 20px;
 }
-.gap-5{
-    gap: 20px;
+.text-align-center{
+text-align: center;
 }
